@@ -1,0 +1,329 @@
+/* src/styles/styles.css */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #ffffff;
+  color: #a71a1b;
+}
+
+nav img {
+  height: 70px;
+  width: 250px;
+}
+
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-buttons button {
+  padding: 8px 15px;
+  background-color: #ffffff;
+  color: #a71a1b;
+  border: none;
+  cursor: pointer;
+}
+
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #333;
+  z-index: 1000;
+}
+
+.container {
+  background-color: #385529;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  border-top: 2px solid #a16b15;
+  border-bottom: 2px solid #a16b15;
+  margin-top: 127px;
+}
+
+.buttons-row button {
+  flex: 1;
+  padding: 15px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+}
+
+.library-image {
+  width: 100vw;
+  height: auto;
+}
+
+/* Additional styles for content display */
+.content-buttons {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  padding: 15px 15px;
+  gap: 20px;
+}
+
+.content-buttons button {
+  padding: 15px 15px;
+  background-color: transparent;
+  color: #a71a1b;
+  border: none;
+  cursor: pointer;
+}
+
+.centered-content {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Heading Style */
+.heading {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  color: #385529;
+  margin-top: 20px;
+}
+
+/* styles.css */
+
+/* Main container styling for Signup */
+.signup-container {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f8f8f8; /* Set a different light background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styling for Signup */
+.signup-container h2 {
+  text-align: center;
+  color: #2c3e50; /* Set a different dark text color */
+}
+
+/* Form styling for Signup */
+.signup-form {
+  margin-top: 20px;
+}
+
+/* Label styling for Signup */
+.signup-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+/* Input styling for Signup */
+.signup-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Button styling for Signup */
+.signup-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #3498db; /* Set a blue background color for the button */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.signup-form button:hover {
+  background-color: #2980b9; /* Darken the button color on hover */
+}
+
+/* Main container styling */
+.login-container {
+  width: 300px; /* Set a fixed width for the container */
+  margin: 50px auto; /* Center the container on the page */
+  padding: 20px;
+  border-radius: 10px; /* Add rounded corners to the container */
+  background-color: #f0f0f0; /* Set a light background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect */
+}
+
+/* Header styling */
+.login-container h2 {
+  text-align: center;
+  color: #333; /* Set a dark text color */
+}
+
+/* Form styling */
+.login-form {
+  margin-top: 20px;
+}
+
+/* Label styling */
+.login-form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #555; /* Set a slightly darker text color for labels */
+}
+
+/* Input styling */
+.login-form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc; /* Add a border to the input fields */
+  border-radius: 4px; /* Add rounded corners to the input fields */
+}
+
+/* Button styling */
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50; /* Set a green background color for the button */
+  color: #fff; /* Set a white text color for the button */
+  border: none;
+  border-radius: 4px; /* Add rounded corners to the button */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.login-form button:hover {
+  background-color: #45a049; /* Darken the button color on hover */
+}
+
+
+
+/* Additional styling for other elements */
+
+/* Header and Navigation styles */
+nav {
+  background-color: #333;
+  color: #fff;
+}
+
+.nav-buttons button {
+  background-color: #333;
+  color: #fff;
+}
+
+/* Button styling for Signup and Login forms */
+.signup-form button,
+.login-form button {
+  background-color: #3498db;
+  color: #fff;
+}
+
+.signup-form button:hover,
+.login-form button:hover {
+  background-color: #2980b9;
+}
+
+/* styles.css (or any other name you prefer) */
+
+/* Body styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f9f9f9; /* Light gray background color */
+}
+
+/* Container styling */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff; /* White background color */
+  border: 1px solid #e0e0e0; /* Light gray border */
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading styling */
+h2 {
+  color: #333;
+  text-align: center;
+}
+
+h3 {
+  color: #555;
+}
+
+/* List styling */
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  display: grid;
+  grid-template-columns: auto 1fr 1fr auto auto; /* Adjust column widths as needed */
+  align-items: center;
+  padding: 15px;
+  background-color: #f5f5f5; /* Lighter background color for each sports item entry */
+  transition: background-color 0.3s ease-in-out;
+}
+
+li:hover {
+  background-color: #e0e0e0; /* Darker background color on hover */
+}
+
+/* Image styling */
+.item-image {
+  width: 100px; /* Adjust the width as needed */
+  height: auto;
+  border-radius: 5px; /* Rounded corners for images */
+}
+
+/* Item details styling */
+.item-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px; /* Adjust the margin as needed */
+}
+
+.item-details p {
+  margin: 5px 0;
+  color: #555; /* Dark gray text color */
+}
+
+/* Buttons row styling */
+.buttons-row {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.buttons-row button {
+  padding: 8px 12px;
+  background-color: #007bff; /* Blue color for buttons */
+  color: #fff; /* White text color for buttons */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* Smooth transition effect */
+}
+
+.buttons-row button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
